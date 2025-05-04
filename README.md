@@ -18,17 +18,18 @@ Source: `automation/imdb-test/`
 ```bash
 git clone https://github.com/CarolineMarkov/qa_assignment.git
 cd qa_assignment/automation/imdb-test
-
+```
 ### 2. run the test:
 This project uses Java 17. Tests may fail to compile/run with earlier versions
 If needed, set the JAVA_HOME environment variable to point to JDK 17
 
 ```bash
 mvn clean test
-
+```
 ### 3. (optional) view allure report :
 ```bash
  allure serve allure-results
+```
 Assuming that allure CLI is installed and added to PATH
 
 
